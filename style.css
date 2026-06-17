@@ -1,0 +1,107 @@
+body {
+    font-family: Arial;
+    background-color: #0b857a;
+}
+li{
+    display: inline-flex;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav  {
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(215, 218, 58);
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* Header - Logo and Banner side by side */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+header img:first-child {
+  width: 250px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+header img:last-child {
+  width: calc(100% - 250px);
+  height: auto;
+}
+
+/* Nav bar */
+nav {
+  background-color: #0e919b;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+p{
+  width=70%;
+  margin:0 auto;
+  padding-bottom: 2%;
+}
+.square{
+  text-indent:500px;
+}
+#cutedog{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-size: 32px;
+}
+#bambachi{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-size: 32px;
+}
+
+.bamba{
+  height:400px;
+  width:400px;
+}
+#dalila{
+  font-display: flex;
+  align-items: center;
+  text-decoration: double;
+}
